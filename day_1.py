@@ -1,11 +1,11 @@
 #Python Basic Exercise for Beginner
 
-Exercise 1: Calculate the multiplication and sum of two numbers
+#Exercise 1: Calculate the multiplication and sum of two numbers
 
-Given two integer numbers, write a Python program to return their product only if the product is equal to or lower than 1000. Otherwise, return their sum.
+#Given two integer numbers, write a Python program to return their product only if the product is equal to or lower than 1000. Otherwise, return their sum.
 
-With given input
-"""
+#With given input
+
 
 number1 = 20
 number2 = 30
@@ -17,7 +17,7 @@ if product <= 1000:
 else:
   print("sum: ", sum)
 
-"""Input by User"""
+#Input by User
 
 number1 = int(input("input 1st number:"))
 number2 = int(input("input 2nd number:"))
@@ -32,7 +32,7 @@ else:
 avg = (number1 + number2) / 2
 print("average:", avg)
 
-"""Using Function"""
+#Using Function
 
 def multiplication_or_sum(num1, num2):
   product = num1 * num2
