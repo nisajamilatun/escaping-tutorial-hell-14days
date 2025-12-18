@@ -66,4 +66,4 @@ exp = int(input("Exponent ="))
 
 print(base,"raises to the power of", exp, " is :", exponent(base, exp))
 
-#ngetes doang
+#ngetes doang email baru
